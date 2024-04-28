@@ -1,0 +1,556 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+.nav-bar{
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	display: flex;
+	justify-content: space-around;
+	justify-items: right;
+	position: relative;
+		
+}
+
+.nav-bar a{
+	text-decoration: none;
+	margin-top: 15px;
+	font-size: 20px;
+	color: black;
+	font-weight: bolder;
+	margin-left: 150px;
+
+
+}
+.nav-bar a:hover{
+	color: blue;
+	
+}
+.nav-bar button{
+	width: 150px;
+	height: 40px;
+	padding: 10px;
+	background: red;
+	color: white;
+	font-size: 20px;
+	font-weight: bolder;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+.nav-bar-sub{
+	width: 100%;
+	height: 120px;
+	background:black;
+	display: inline-block;
+
+}.nav-bar-sub ul{
+	list-style-type: none;
+
+}
+.nav-bar-sub ul li{
+	margin-left: 150px;
+	margin-top: 30px;
+	display: inline-block;
+	position: relative;
+
+}
+.nav-bar-sub ul li:hover > ul{
+    display: block;
+    z-index:99;
+     
+}
+.nav-bar-sub ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+}
+
+.nav-bar-sub ul li a:hover{
+	color: blue;
+
+}
+.nav-bar-sub ul li a::after{
+	content: '';
+	width: 100%;
+	height: 3px;
+	background: blue;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: .5s;	
+}
+.nav-bar-sub ul li a:hover::after{
+	content: '';
+	transform-origin: left;
+	transform: scaleX(1.0);
+}
+.nav-bar-sub ul li span {
+	
+	font-size: 20px;
+	font-weight: bolder;
+	margin-left: 10px;
+	color: white;
+	
+}
+.nav-bar-sub ul li span:hover {
+	
+	color: blue;
+	
+}
+.nav-bar-sub ul li ul{
+    
+    position: absolute;
+   
+}
+ 
+.drop-one{
+	width: 1280px;
+    height: 260px;
+    margin-top: 1px;
+    margin-left: -110px;
+    display:;
+    z-index: 12;
+	background-color: black;
+	display: none;
+   
+}
+.drop-nd{
+	width: 1280px;
+    height: 260px;
+    margin-top: 1px;
+    margin-left: -410px;
+    display:;
+    z-index: 12;
+	background-color: black;
+	display: none;
+   
+}
+.drop-thrd{
+	width: 1280px;
+    height: 260px;
+    margin-top: 1px;
+    margin-left: -690px;
+    display:;
+    z-index: 12;
+	background-color: black;
+	display: none;
+	
+   
+}
+.drop-fth{
+	width: 1280px;
+    height: 260px;
+    margin-top: 1px;
+    margin-left: -940px;
+    display:;
+    z-index: 12;
+	background-color: black;
+	display: none;
+   
+}
+.drop-one-sub{
+	display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: white;
+    font-size: 25px;
+   
+}
+.drop-one-sub ul li{
+	line-height: 0px;
+	
+}
+.drop-one-sub ul li a{
+	font-size: 14px;
+	font-weight: normal;
+	
+}
+.drop-one-sub h3{
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 20px;
+	
+}
+ .drop-two-sub {
+	display: inline-block;
+    margin-top: 40px;
+    margin-left: 100px;
+    color: white;
+    font-size: 25px;
+   
+}
+.drop-two-sub ul li{
+	line-height: 0px;
+	
+}
+.drop-two-sub ul li a{
+	font-size: 14px;
+	font-weight: normal;
+	
+}
+.drop-two-sub h3{
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 20px;
+	
+}
+ .drop-three-sub {
+	display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+    color: white;
+    font-size: 25px;
+   
+}
+ .drop-fth-sub {
+	display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+    color: white;
+    font-size: 25px;
+   
+}
+ .drop-web-sub img {
+ 	position: absolute;
+ 	top: 50px;
+ 	left: 370px;
+	width: 600px;
+    height: 190px;
+    left: 670px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 0px blue;
+   
+}
+ .drop-soft-sub img {
+ 	position: absolute;
+ 	top: 50px;
+ 	left: 370px;
+	width: 600px;
+    height: 190px;
+    left: 670px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 0px blue;
+   
+}
+ .drop-prod-sub img {
+ 	position: absolute;
+ 	top: 50px;
+ 	left: 370px;
+	width: 600px;
+    height: 190px;
+    left: 670px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 0px blue;
+   
+}
+
+ .drop-fth-sub img {
+ 	position: absolute;
+ 	top: 50px;
+ 	left: 370px;
+	width: 600px;
+    height: 190px;
+    left: 670px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 0px blue;
+   
+}
+.drop-three-sub ul li{
+	line-height: 0px;
+	margin-top: 0px;
+	
+}
+.drop-three-sub ul li a{
+	font-size: 14px;
+	font-weight: normal;
+	
+}
+.drop-three-sub h3{
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 20px;
+}
+.nav-bar-sub ul li ul li{
+    clear: both;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 100%;
+
+   
+} 
+.nav-bar-sub ul li ul li a{
+    color:white;
+    width: 100%;
+    position: relative;
+    font-size: 15px;
+    
+}
+.nav-bar-sub ul li ul li a:hover{
+    color:blue;
+    width: 100%;
+    
+}
+.nav-bar-sub ul li ul li a::after{
+	content: '';
+	width: 100%;
+	height: 3px;
+	background: blue;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: .5s;	
+}
+.nav-bar-sub ul li ul li a:hover::after{
+	content: '';
+	transform-origin: left;
+	transform: scaleX(1.0);
+}
+
+.add{
+	width: 100%;
+	height: 200px;
+	display: inline-block;
+	position: relative;
+	z-index: 10;
+}
+.add .add1{
+	width: 30%;
+	height: 97%;
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	left: 5px;
+	margin: auto;
+	border-radius: 10px;
+
+
+}
+.add .add1 img{
+	width: 100%;
+	height: 97%;
+}
+.add .add2{
+	width: 30%;
+	height: 97%;
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+	margin: auto;
+	border-radius: 10px;
+}
+.add .add2 img{
+	width: 100%;
+	height: 97%;
+}
+.add .add3{
+	width: 30%;
+	height: 97%;
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	right: 5px;
+	margin: auto;
+	border-radius: 10px;
+}
+.add .add3 img{
+	width: 100%;
+	height: 97%;
+}
+.lower{
+	width: 100%;
+	height: 300px;
+	position: relative;
+
+}
+
+.lower .lower-sub-1{
+	width: 98%;
+	height: 100%;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	border-radius: 20px;
+	box-shadow: 0px 0px 30px 0px blue;
+
+}
+.lower .lower-sub-1 img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	box-shadow: 0px 0px 30px 0px blue;
+}
+.lower .lower-sub-2{
+	width: 49%;
+	height: 97%;
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	right: 5px;
+	margin: auto;
+	border-radius: 10px;
+
+}
+.lower .lower-sub-2 img{
+	width: 100%;
+	height: 97%;
+}
+
+.lower-down{
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+.lower-down .lower-down-sub-1{
+	width: 15%;
+	height: 97%;
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	left: 5px;
+	margin: auto;
+	border-radius: 10px;
+}
+.lower-down .lower-down-sub-1 img{
+	width: 100%;
+	height: 97%;
+}
+.lower-down .lower-down-sub-2{
+	width: 60%;
+	height: 97%;
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+	margin: auto;
+	border-radius: 10px;
+}
+.lower-down .lower-down-sub-2 img{
+	width: 100%;
+	height: 97%;
+}
+.lower-down .lower-down-sub-3{
+	width: 15%;
+	height: 97%;
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	right: 5px;
+	margin: auto;
+	border-radius: 10px;
+}
+.lower-down .lower-down-sub-3 img{
+	width: 100%;
+	height: 97%;
+}
+.footer{
+	width: 100%;
+	height: 200px;
+	background: black;
+	position: relative;
+	color: white;
+	
+}
+.footer .footer-addr{
+	width: 20%;
+	height: 70%;
+	background: black;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left:10px;
+	margin: auto;
+}
+h3{
+	text-decoration: underline;
+}
+.footer .footer-about{
+	width: 20%;
+	height: 70%;
+	background: black;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 21%;
+	margin: auto;
+
+}
+.footer .footer-contract{
+	width: 20%;
+	height: 70%;
+	background: black;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 42%;
+	margin: auto;
+
+}
+.footer .footer-patner{
+	width: 15%;
+	height: 70%;
+	background: black;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 63%;
+	margin: auto;
+
+}
+.footer .footer-link{
+	width: 15%;
+	height: 70%;
+	background: black;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	margin: auto;
+
+}
+.footer a{
+	text-decoration: none;
+	color: blue;
+}
+.footer a:hover{
+	text-decoration: underline;
+	
+}
+
+
+
+
+
+
+
+
+
+
